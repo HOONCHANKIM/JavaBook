@@ -4,7 +4,9 @@ public class FlowEx1 {
 	public static void main(String[] args) {
 		int visitCount = 0;
 		if (visitCount < 1) {
-			System.out.println("Ã³À½ ¿À¼Ì±º¿ä. ¹æ¹®ÇØ ÁÖ¼Å¼­ °¨»çÇÕ´Ï´Ù.");
+			System.out.println("ì²˜ìŒ ì˜¤ì…¨êµ°ìš”. ë°©ë¬¸í•´ ì£¼ì…”ì„œ ê°ì‚¬í•©ë‹ˆë‹¤.");
 		}
 	}
 }
+
+~!
