@@ -4,17 +4,20 @@ import java.util.concurrent.SynchronousQueue;
 
 public class ArrayEx1 {
 	public static void main(String[] args) {
-		int sum = 0;		//ÃÑÁ¡À» ÀúÀåÇÏ±â À§ÇÑ º¯¼ö
-		float average = 0f;	//Æò±ÕÀ» ÀúÀåÇÏ±â À§ÇÑ º¯¼ö
-		
+		int sum = 0;		//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï±ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+		float average = 0f;	//ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï±ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+		 
 		int[] score = {100, 88, 100, 100, 90};
 		
 		for (int i = 0; i < score.length; i++) {
-			sum += score[i]; // ¹Ýº¹¹®À» ÀÌ¿ëÇØ¼­ ¹è¿­¿¡ ÀúÀåµÇ¾î ÀÖ´Â °ªµéÀ» ¸ðµÎ ´õ ÇÑ´Ù.
+			sum += score[i]; // ï¿½Ýºï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ì¿ï¿½ï¿½Ø¼ï¿½ ï¿½è¿­ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ç¾ï¿½ ï¿½Ö´ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½Ñ´ï¿½.
 		}
-		average = sum / (float)score.length; // °è»ê °á°ú¸¦ float·Î ¾ò±â À§ÇÔ.
+		average = sum / (float)score.length; // ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ floatï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½.
 		
-		System.out.println("ÃÑÁ¡ : " + sum);
-		System.out.println("Æò±Õ : " + average);
+		System.out.println("ï¿½ï¿½ï¿½ï¿½ : " + sum);
+		System.out.println("ï¿½ï¿½ï¿½ : " + average);
+		System.out.println("test");
 	}
 }
+
+
